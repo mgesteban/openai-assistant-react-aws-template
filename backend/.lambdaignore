@@ -1,0 +1,17 @@
+*.test.js
+*.spec.js
+test/
+tests/
+__tests__/
+coverage/
+node_modules/
+.git/
+.gitignore
+README.md
+*.map
+local-server.js
+package-lock.json
+setup-secrets.js
+KEY-MANAGEMENT.md
+test-api.html
+*.md

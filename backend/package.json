@@ -14,10 +14,12 @@
   "description": "",
   "dependencies": {
     "@aws-sdk/client-lambda": "^3.744.0",
+    "@aws-sdk/client-secrets-manager": "^3.744.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "openai": "^4.83.0"
+    "openai": "^4.83.0",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

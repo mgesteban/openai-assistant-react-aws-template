@@ -63,4 +63,4 @@ Note: Before deploying, you'll need:
 2. IAM role for Lambda execution
 3. OpenAI API key for backend/.env
 
-Would you like me to help you set up any of these prerequisites?
+

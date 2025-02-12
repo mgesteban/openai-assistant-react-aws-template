@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env.*
+
+# AWS credentials and config
+.aws/
+aws.json
+credentials.json
+**/aws-keys.json
+
+# Lambda deployment packages
+*.zip
+function.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive files
+**/KEY-MANAGEMENT.md
+**/keys.js
+**/secrets.js
+**/credentials.js
