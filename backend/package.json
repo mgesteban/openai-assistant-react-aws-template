@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node local-server.js",
+    "dev": "nodemon local-server.js",
+    "build": "zip -r function.zip . -x '*.git*' -x 'local-server.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.744.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
